@@ -13,7 +13,8 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: frontend
-          servicePort: 80
+          service: frontend
+          port: 
+            number: 8080
         path: /
         pathType: ImplementationSpecific
